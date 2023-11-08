@@ -8,7 +8,11 @@ module.exports = {
       lg: '960px',
       xl:'1440px'
     },
-    extend: {},
+    extend: {
+      transitionDuration: {
+        '2000': '2000ms',
+      }
+    },
   },
   plugins: [],
 }
